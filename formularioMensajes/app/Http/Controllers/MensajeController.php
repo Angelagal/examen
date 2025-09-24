@@ -36,7 +36,6 @@ class MensajeController extends Controller
         $datos[] = $validated;
 
         Storage::put($archivo, json_encode($datos, JSON_PRETTY_PRINT));
-
         return response()->json(['success' => true]);
     }
 
