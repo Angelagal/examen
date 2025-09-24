@@ -43,7 +43,6 @@ class MensajeController extends Controller
     public function registros()
     {
         $archivo = 'mensajes.json';
-
         if (Storage::exists($archivo)) {
             $contenido = Storage::get($archivo);
             $mensajes = json_decode($contenido, true) ?? [];
