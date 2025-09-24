@@ -11,3 +11,5 @@ Posteriormente se creo un controlador utilizando el siguiente comando
 
 ******php artisan make:controller MensajeController
 
+Se utilizó xampp para levantar el proyecto y el localhost se modifico por aplcacion
+queda asi http://aplicacion/formularioMensajes/public
