@@ -26,6 +26,8 @@ Route::post('/guardar', [MensajeController::class, 'guardar']); // guardar mensa
 Route::get('/registros', [MensajeController::class, 'registros']); // mostrar mensajes
 Route::get('/mensajes-json', [MensajeController::class, 'mostrarJson']);
 
+///Se agrega esta ruta para el botón salir que no marque un error  sino otra pagina
+
 Route::get('/inicio', function () {
     return view('inicio');
 })->name('inicio');
