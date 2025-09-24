@@ -1,0 +1,13 @@
+Se creo un proyecto en laravel utilizando el siguiente comando
+quedo  con  
+LARAVEL
+12.31.1
+PHP
+8.2.12
+
+******composer create-project laravel/laravel formularioMensajes
+
+Posteriormente se creo un controlador utilizando el siguiente comando
+
+******php artisan make:controller MensajeController
+
